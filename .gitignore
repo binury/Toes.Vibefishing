@@ -1,0 +1,14 @@
+*.ds_store
+.idea/
+.vs/
+*.user
+/local
+
+bin/
+obj/
+*.zip
+*.dll
+*.pck
+*.7z
+
+.vscode/settings.json
