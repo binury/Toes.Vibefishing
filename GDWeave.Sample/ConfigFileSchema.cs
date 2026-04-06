@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace MyModName;
+namespace Shaderade;
 
 /// <summary>
 /// This class defines the shape of and default values for your mod's JSON config.
@@ -11,10 +11,12 @@ namespace MyModName;
 /// do try to pick good defaults!)
 /// <br/>
 /// Note: the generated JSON file will be placed inside of the GDWeave directory, in the `configs` folder
-/// e.g.: WEBFISHING\GDWeave\configs\Toes.MyModName.json
+/// e.g.: WEBFISHING\GDWeave\configs\Toes.Shaderade.json
 /// </summary>
 public class ConfigFileSchema
 {
 	[JsonInclude]
-	public bool infiniteChatRange = false;
+	public float red = 0.1f;
+	public float green = 0.1f;
+	public float blue = 0.1f;
 }
